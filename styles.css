@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    background-color: #06283D;
+    color: #7FBCD2;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+button{
+    cursor: pointer;
+}
+
+.heading{
+    font-size: 3rem;
+    padding: 3% 15%;
+}
+
+.result{
+    margin: 2%;
+    padding-bottom: 3%;
+}
+
+.choose{
+    margin: 2% auto 3%;
+}
+
+.btn {
+    margin: 2% 5%;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.btn:hover{
+    text-decoration: underline;
+}
+
+.btn i{
+    margin-bottom: 20%;
+}
+
+.opt i{
+    font-size: 3.5rem;
+    color: #533483;
+    padding: 2% 1%;
+}
+
+.game i{
+    margin: 5% auto 30%;
+    font-size: 5rem;
+}
+
+.show{
+    display: inline-block;
+    margin: 1% 10%;
+}
+
+.play-btn{
+    margin: 3%;
+    border: 2px solid #533483;
+    background-color: #533483;
+    color: #7FBCD2;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+.play-btn:hover{
+    background-color: #06283D;
+}
+
+footer{
+    margin: 2%;
+    line-height: 2;
+}
+
+footer i:hover{
+    font-size: 2rem;
+}
+
+/* For mobile responsive */
+@media screen and (max-width: 767px) {
+    .heading{
+        font-size: 1.5rem;
+        line-height: 1.5;
+        margin-bottom: 7%;
+    }
+
+    .user button{
+        font-size: 0.75rem;
+    }
+
+    footer{
+        margin: 7%;
+        font-size: 0.75rem;
+    }
+    
+    .play-btn{
+        margin: 7% auto 3%;
+        padding: 20px;
+    }
+
+    .game{
+        margin: 7% auto;
+    }
+
+    .show h3{
+        font-size: 0.75rem;
+    }
+}
